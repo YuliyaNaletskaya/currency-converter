@@ -286,6 +286,7 @@ function newString() {
     i++;
     console.log(block);
 }
+
 // Создание элементов option для новой строки:
     function appOption() {
         let fragment = new DocumentFragment();
