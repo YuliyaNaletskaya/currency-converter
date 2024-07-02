@@ -1,2 +1,2 @@
 # currency-converter
-study project
+Study project Currency Converter

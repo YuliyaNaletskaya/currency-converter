@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /*height: 860px;*/
+    width: 470px;
+    }
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    color: #4d0776;
+}
+
+form {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #3d9c48;
+    width: 100%;
+    height: 70%;
+    /*width: 470px;*/
+    background-color: #fba00429;
+}
+
+fieldset {
+    border: none;
+    margin: auto;
+    padding: 10px;
+    /*width: 400px;*/
+}
+
+label {
+    cursor: pointer;
+}
+
+input {
+    border: solid 2px #3d9c48;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    }
+
+#switcher {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    justify-items: center;
+    flex-direction: row;
+    margin-left: 140px;
+    height: 30px;
+   /* width: 100px;
+    padding: 5px;*/
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+#add {  
+    border: solid 2px #3d9c48;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#add:hover {
+    cursor: pointer;
+}
+
+#add_cur {
+    display: inline;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block button:last-child { 
+    height: 30px;
+    width: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.block input {
+    width: 25%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.total button, .options button {
+    height: 30px;
+    width: 25%;
+}
+
+h4 {
+    margin: 0;
+}
+
+button{
+    background-color:#fba104;
+    border: solid 2px #3d9c48;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    padding: 5px;
+}
+/*#6e0f72;
+#3d9c48;
+#fba104;*/
+
+button:hover {
+    cursor: pointer;
+    background-color: #7cc30a; 
+}
+  button:active {
+    cursor: pointer;
+    background-color: #3d9c48;
+    color: whitesmoke;
+  }
+
+.info{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 10px;
+    /*height: 50%;*/
+    width:50%; 
+    background-color:  #aeef4457;
+}
